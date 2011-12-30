@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The objective of these exercises are to set up tools and processes that you will use for many weeks and months to come as a developer. Quickly scanning the tasks that lay ahead you will get the distinct impression that the majority of your time is not actually learning the Ruby language. That is indeed an accurate observation (+1 point). This is not an oversight.
+The objective of these exercises are to set up tools and processes that you will need to be an effective Ruby developer. Quickly scanning the tasks that lay ahead you will get the distinct impression that the majority of your time is not actually learning the Ruby language. That is indeed an accurate observation (+1 point). This is not an oversight.
 
 It is important to take the time to become acquainted with a number of great time saving tools. As well as starting to reach out to the development community. Trust me that the efforts spent here will help build skills that will come to your aid in short amount of time.
 
@@ -30,12 +30,6 @@ Git is a distributed version control system. This is an essential tool to ensure
 
     An optional 'Exploration' exercise below encourages you to return to learn more about git.
 
-#### Linux Users
-
-You can follow the instructions outlined on [Github](http://help.github.com/linux-set-up-git/).
-
-#### Mac Users
-
 [Github](Instll) outlines installation instructions which tell you to install Git from the [source](http://git-scm.com/). I would recommend that you take the plunge and install [Homebrew](http://mxcl.github.com/homebrew/).
 
     /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
@@ -44,36 +38,12 @@ Brew will allow you install multiple different programs very quickly and easily.
 
     brew install git
     
-#### Windows Users
 
-Instead of installing Git as a standalone, I would recommend that you use the [Rails Installer](http://railsinstaller.org/) which installs for you git and a whole lot more (time saving things; not the usual fluff that ends up being a whole lot more).
+### Install RVM
 
-    Download: http://rubyforge.org/frs/download.php/75346/railsinstaller-2.0.0.exe
-
-
-### Install RVM/Pik
-
-Ruby Version Manager ([RVM](https://rvm.beginrescueend.com)) and [Pik](https://github.com/vertiginous/pik) allows you to install multiple ruby versions on your system and switch between them easily. You may be asking: _Why am I worrying about multiple different versions of Ruby when I don't even know how to program in one?_ Great question, you sure are smart!
+Ruby Version Manager ([RVM](https://rvm.beginrescueend.com)) allows you to install multiple ruby versions on your system and switch between them easily. You may be asking: _Why am I worrying about multiple different versions of Ruby when I don't even know how to program in one?_ Great question, you sure are smart!
 
 Even if you are only going to use one Ruby version it is still important to ensure that you are familiar with a tool that is a community standard. It also makes it unbelievably easier to update and upgrade in the future.
-
-#### Linux Users
-
-    $ sudo apt-get install build-essential
-    $ sudo apt-get install curl
-    $ sudo apt-get install zlib1g-dev libreadline5-dev libssl-dev libxml2-dev libxslt1-dev
-    $ sudo apt-get install ruby1.8 rubygems1.8
-
-First you install some necessary packages that ruby requires. Then you actually install an older version of Ruby. The older version of ruby is required to install RVM which will allow you to install and update various different versions of ruby.
-
-    $ sudo gem install rvm
-
-Install Ruby 1.9.2 and make it the default Ruby for your user.
-
-    $ rvm install ruby-1.9.2-p290
-    $ rvm --default use ruby-1.9.2-p290
-
-#### Mac Users
 
 Launch *Terminal*. This will allow you to run the commands to install [RVM](https://rvm.beginrescueend.com).
 
@@ -92,12 +62,6 @@ Install Ruby 1.9.2 and make it the default Ruby for your user.
     $ rvm install ruby-1.9.2-p290
     $ rvm --default use ruby-1.9.2-p290
 
-#### Windows
-
-* Pik is optional for Windows users.
-
-[Pik](https://github.com/vertiginous/pik) provides support like RVM. However, it does not have the maturity and support that you may find with the other OS alternatives. If it gives you any trouble you can resort to not installing it.
-
 ## The Kingdom of Github
 
 Github is an easy, and free (as long as what you are doing is public) way to share code and collaborate with others. It's like the Facebook of software development.
@@ -112,15 +76,15 @@ Accounts are free for all the work that we are doing and your account will likel
 
 ### 2. Create a SSH key and Upload it to Github
 
-After the git instructions for each OS [Linux](http://help.github.com/linux-set-up-git/), [Mac](http://help.github.com/mac-set-up-git/), and [Windows](http://help.github.com/win-set-up-git/) there are instructions about generating and uploading your SSH keys to Github.
+After the git instructions for [Mac](http://help.github.com/mac-set-up-git/) there are instructions about generating and uploading your SSH keys to Github.
 
-### 3. Message me [burtlo](https://github.com/burtlo).
+### 3. Message me [trevmex](https://github.com/trevmex).
 
     Visit: https://github.com/inbox/new
     
-### 4. I will add you the [UWE-Ruby](https://github.com/organizations/UWE-Ruby) organization
+### 4. I will add you the [CIM-Ruby](https://github.com/organizations/CIM-Ruby) organization
 
-As well as individual developer accounts, Github offers organization accounts. We are using the UWE-Ruby organization for this class. However, any other work you want to put on Github would not be part of this organization.
+As well as individual developer accounts, Github offers organization accounts. We are using the CIM-Ruby organization for this class. However, any other work you want to put on Github would not be part of this organization.
   
 ### 5. Fork and clone this repository
 
@@ -255,23 +219,6 @@ While many will try to persuade you to join their particular text editor cult, I
 Select an editor that gets you most of the way there. After awhile, when the dust has settled take the time to look around and start asking yourself how can I be more efficient, loved by my fellow hackers, etc...
 
 The following editors are simply suggestions:
-
-#### Windows
-
-* [Redcar](http://redcareditor.com/)
-* [Notepad++](http://notepad-plus-plus.org/)
-* [RubyMine](http://www.jetbrains.com/ruby/)
-* [Komodo Edit](http://www.activestate.com/komodo-edit)
-* [E Editor](http://www.e-texteditor.com/)
-
-#### Linux
-
-* [Redcar](http://redcareditor.com/)
-* [RubyMine](http://www.jetbrains.com/ruby/)
-* vi
-* emacs
-
-#### Mac
 
 * [Redcar](http://redcareditor.com/)
 * [TextMate](http://macromates.com/)

@@ -124,8 +124,8 @@ describe "Variable" do
       first = second = 1
       sum = first + second
     
-      (first + second).should eq 3
-      sum.should eq 3
+      (first + second).should eq 2
+      sum.should eq 2
     end
     
   end
@@ -134,13 +134,13 @@ describe "Variable" do
     
     it "should be equal to the dividend" do
 
-      (12 / 3).should eq 3
+      (12 / 3).should eq 4
       
     end
     
     it "should be equal to the the remainder" do
       
-      (100 % 3).should eq 33
+      (100 % 3).should eq 1
       
     end
     
@@ -149,7 +149,7 @@ describe "Variable" do
       # For this one see if you can leave the math operation (4 / 3) alone and
       # change the expectation
       
-      (4 / 3).should eq 1.3
+      (4 / 3).should eq 1
       
     end
     
@@ -162,7 +162,7 @@ describe "Variable" do
       numerator = 4.0
       divisor = 3
       
-      (numerator / divisor).should eq 1
+      (numerator / divisor).should eq 1.3333333333333333
       
     end
     

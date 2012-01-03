@@ -42,7 +42,7 @@ describe "The Rspec ruby gem" do
 
       # When this example fails,
       # it will show "expected" as 2, and "actual" as 1
-      1.should eq 2
+      lambda{ 1.should eq 2 }.should raise_error 
 
     end
 

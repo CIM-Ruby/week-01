@@ -89,7 +89,7 @@ describe "Boolean" do
   context "failing tests" do
     
     it "true should be true" do
-      true.should eq "true"
+      true.to_s.should eq "true"
     end
     
   end

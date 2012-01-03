@@ -25,7 +25,7 @@ describe "Nil and the NilClass" do
       
       # Here you may have to do some set up work to make the below statement stop
       # raising the exception 'undefined local variable or method `value`'
-      
+      value = nil
       value.should be_nil
       
     end

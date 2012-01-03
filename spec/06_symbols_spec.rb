@@ -65,7 +65,7 @@ describe "Symbols", "not quite a string, not yet a constant" do
         # artist to make it meet the expectations "george_michael"
         
         artist = :george_michael
-        artist.should == "george_michael"
+        "#{artist}".should == "george_michael"
       end
       
     end

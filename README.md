@@ -32,7 +32,7 @@ Git is a distributed version control system. This is an essential tool to ensure
 
 [Github](Instll) outlines installation instructions which tell you to install Git from the [source](http://git-scm.com/). I would recommend that you take the plunge and install [Homebrew](http://mxcl.github.com/homebrew/).
 
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+    /usr/bin/ruby -e "$(/usr/bin/curl -fsSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"
     
 Brew will allow you install multiple different programs very quickly and easily.
 
